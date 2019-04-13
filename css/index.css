@@ -186,7 +186,7 @@ header.nav .nav-bar nav a {
   text-decoration: none;
 }
 header.nav .nav-bar nav a:hover {
-  color: red;
+  color: blue;
 }
 footer {
   color: #22283B;
