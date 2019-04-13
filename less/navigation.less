@@ -1,15 +1,16 @@
 // Navigation code here
 
 header.nav {
-    // max-width: 800px;
+
     width: 100%;
     margin: 0 auto;
+    background-color: @nav-bg;
+    padding: 15px 0;
 
     .nav-bar {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 15px 0;
         h1 {
             font-size: 4rem;
             color: @nav-font;
@@ -26,13 +27,9 @@ header.nav {
                 padding: 0 20px;
                 text-decoration: none;
                 &:hover {
-                    color: blue;
+                    color: @nav-hover;
                 }
-            }
-            // a:hover {
-            //     color: red;
-            // }
-        
+            }  
             
         }
     }
