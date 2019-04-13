@@ -241,6 +241,24 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  width: 100px;
+  display: flex;
+  background-color: #22283A;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  border-radius: 6px;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: gainsboro;
+  color: #454A59;
+}
+.home .walk .walk-text .btn p {
+  padding: 8px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
