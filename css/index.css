@@ -257,6 +257,11 @@ footer {
   .home .walk {
     display: flex;
     flex-direction: column;
+    padding: 50px 20px;
+  }
+  .home .walk .walk-text {
+    order: 1;
+    margin-top: 15px;
   }
 }
 .home .walk .walk-text {
