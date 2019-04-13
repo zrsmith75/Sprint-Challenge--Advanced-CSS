@@ -295,6 +295,12 @@ footer {
   width: 46%;
   margin-left: 4%;
 }
+@media only screen and (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
