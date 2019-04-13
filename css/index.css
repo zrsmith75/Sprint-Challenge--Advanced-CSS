@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header.nav {
+  width: 100%;
+  margin: 0 auto;
+}
+header.nav .nav-bar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 0;
+}
+header.nav .nav-bar h1 {
+  font-size: 4rem;
+  color: #454A59;
+  margin-bottom: 15px;
+}
+header.nav .nav-bar nav {
+  display: flex;
+  justify-content: center;
+}
+header.nav .nav-bar nav a {
+  color: #454A59;
+  font-size: 1.6rem;
+  padding: 0 20px;
+  text-decoration: none;
+}
+header.nav .nav-bar nav a:hover {
+  color: red;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
