@@ -1,3 +1,10 @@
+.hover-btn {
+  background-color: gainsboro;
+  color: #454A59;
+}
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

@@ -41,7 +41,8 @@
 
   .walk {
     margin-top: 60px;
-    border-top: 1px solid @main-border-color;
+    // border-top: 1px solid @main-border-color;
+    .border-top;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
@@ -62,14 +63,12 @@
         display: flex;
         background-color: @btn-bg;
         color: @btn-color;
-        font-size: 2rem;
-        font-weight: bold;
+        .btn-font(2rem; bold);
         height: 40px;
         justify-content: center;
         border-radius: 6px;
         &:hover {
-          background-color: @btn-hover;
-          color: @btn-hover-color;
+          .hover-btn;
         }
         p {
           padding: 8px;
