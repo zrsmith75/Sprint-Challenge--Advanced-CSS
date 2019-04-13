@@ -284,6 +284,14 @@ footer {
   justify-content: center;
   border-radius: 6px;
 }
+@media only screen and (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    padding-top: 20px;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background-color: gainsboro;
   color: #454A59;
